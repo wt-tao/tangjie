@@ -1,0 +1,22 @@
+/* pages/user/user.wxss */
+.head{background-color: #FFAEC1;width: 100%;height: 400rpx;}
+.head_user{width: 94%;margin-left: 3%;padding-top: 30rpx;height: 220rpx;}
+.head_img{width: 150rpx;height: 150rpx;border-radius: 50%;margin-top: 25rpx;border: 1rpx solid black;}
+.head_userinfo{width: 55%;height:200rpx;margin-left: 30rpx;color: white}
+.user_name{width: 100%;line-height: 100rpx;}
+.name{font-size: 45rpx;font-weight: bold;width: 65%;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.user_car{width: 33%;font-size: 26rpx;height: 50rpx;line-height: 50rpx;margin-top: 28rpx;background-color: #91ABFF;text-align: center;border-radius: 7rpx;margin-left: 2%;}
+.card{width: 100%;font-size: 26rpx;line-height: 50rpx;}
+.end{width: 140rpx;height: 200rpx;}
+.tuic{width: 100%;font-size: 26rpx;color: white;text-align: center;line-height: 80rpx;}
+.new{width: 94%;margin-left: 3%;height: 100rpx;margin-top: 10rpx;}
+.news{width: 100%;height: 80rpx;margin-top: 10rpx;background-color: white;border-radius: 10rpx;}
+.windNews{width: 70%;line-height: 80rpx;font-size: 28rpx;color: #313131;margin-left: 30rpx;}
+.num{width: 40rpx;height: 40rpx;border-radius: 50%;color: white;background-color: #91ABFF;font-size: 28rpx;text-align: center;line-height: 40rpx;margin-top: 20rpx;margin-left: 70rpx;}
+.div{width: 100%;}
+.title{padding-top: 20rpx;height: 100rpx;line-height: 100rpx;width: 100%;}
+.icon{background-color: #FF8AA6;width: 10rpx;height: 50rpx;margin-top: 25rpx;margin-left: 25rpx;}
+.titele_text{font-size: 40rpx;color: #4D4D4D;margin-left: 30rpx;}
+.div_list{width: 100%;height: 100%;flex-wrap: wrap;}
+.list_com{width: 215rpx;height: 300rpx;margin-left: 25rpx;border: 1rpx solid #E8E8E8;border-radius: 10rpx;margin-top: 20rpx;}
+.list_name{width: 100%;text-align: center;font-size: 28rpx;color: #484848;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;line-height: 40rpx;}

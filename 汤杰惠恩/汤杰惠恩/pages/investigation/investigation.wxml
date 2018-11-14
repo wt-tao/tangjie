@@ -1,0 +1,66 @@
+<!--pages/investigation/investigation.wxml-->
+<view class='div'>
+    <view class='title'>乳腺癌发病风险预测问卷患者版--华西医院乳腺外科</view>
+    
+    <!-- 输入框 -->
+    <view class='d_tit'>1、基本资料<text style='color:#F50000'>(基本资料为保密内容，不会外泄)</text>：</view>
+    <view class='kuang'>
+        <view class='list flex'>
+            <view class='name'>姓名<text style='color:#F50000'>*</text></view>
+            <input class='input'/>
+        </view>
+        <view class='list flex'>
+            <view class='name'>年龄<text style='color:#F50000'>*</text></view>
+            <input class='input'/>
+        </view>
+        <view class='list flex'>
+            <view class='name'>电话<text style='color:#F50000'>*</text></view>
+            <input class='input'/>
+        </view>
+        <view class='list flex'>
+            <view class='name'>住址</view>
+            <input class='input'/>
+        </view>
+    </view>
+
+
+    <!-- 单选 -->
+ <view class='d_tit'><text style='color:#F50000'>*</text>2、您是否为乳腺癌患者？</view>
+    <view class='kuang'>
+        <view class='list flex'>
+            <image src='../../img/ty3@3x (1).png' style='width:40rpx;margin-top:20rpx;' mode='widthFix'/>
+            <view class='sec'>是</view>
+            <!-- <input class='input'/> -->
+        </view>
+        <view class='list flex'>
+            <image src='../../img/1.2_05.png' style='width:40rpx;margin-top:20rpx;' mode='widthFix'/>
+            <view class='sec'>否</view>
+        </view>
+    </view>
+
+
+    <!--多选  -->
+    <view class='d_tit'><text style='color:#F50000'>*</text>3、您是否还患过以下疾病？</view>
+    <view class='kuang'>
+        <view class='list flex'>
+            <image src='../../img/1.2_11.png' style='width:40rpx;margin-top:20rpx;' mode='widthFix'/>
+            <view class='sec'>乳腺良性疾病</view>
+            <!-- <input class='input'/> -->
+        </view>
+        <view class='list flex'>
+            <image src='../../img/1.2_11.png' style='width:40rpx;margin-top:20rpx;' mode='widthFix'/>
+            <view class='sec'>卵巢癌</view>
+        </view>
+        <view class='list flex'>
+            <image src='../../img/1.2_11.png' style='width:40rpx;margin-top:20rpx;' mode='widthFix'/>
+            <view class='sec'>其他癌</view>
+        </view>
+        <view class='list flex'>
+            <image src='../../img/jxkb@3x.png' style='width:40rpx;margin-top:20rpx;' mode='widthFix'/>
+            <view class='sec'>以上均没有</view>
+        </view>
+    </view>
+
+    <view class='button' bindtap='result'>提交问卷</view>
+    <view style='height:30rpx;'></view>
+</view>

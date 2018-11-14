@@ -1,0 +1,17 @@
+<!--pages/product_detail/product_detail.wxml-->
+<view style='height:20rpx;width:100%;background-color: #EFEFF4'></view>
+<view class='div'>
+    <view class='img'></view>
+    <view class='product_title'>遗传学乳腺癌/卵巢癌（23个基因）检测</view>
+    <view class='money'>￥6500.00</view>
+
+    <view class='title'>检测意义</view>
+    <view class='count'>来看你水电费水电费阿道夫are个阿尔个梵蒂冈阿尔戈人工费按如果大风歌如风达art个感染爱人个如果</view>
+
+    <view class='title'>样本要求</view>
+    <view class='count'>来看你水电费水电费阿道夫are个阿尔个梵蒂冈阿尔戈人工费按如果大风歌如风达art个感染爱人个如果</view>
+
+    <view class='title'>报告周期</view>
+    <view class='count'>来看你水电费水电费阿道夫are个阿尔个梵蒂冈阿尔戈人工费按如果大风歌如风达art个感染爱人个如果</view>
+    <view style='height:30rpx;width:100%;'></view>
+</view>

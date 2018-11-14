@@ -1,0 +1,20 @@
+<!--pages/result/result.wxml-->
+<view class='result'>
+    <view class='title'>乳腺癌风险问卷结果</view>
+    <view class='titles'>较高风险</view>
+</view>
+<view style='height:20rpx;width:100%;background-color: #EFEFF4'></view>
+
+
+<view class='div'>
+  <view class='div_top'>
+      <view>乳腺癌问卷结果为较高风险,推荐进行进一步的基因检测：</view>
+  </view>
+  <view class='div_img'></view>
+  <view class='div_title'>遗传学乳腺癌/卵巢癌（23个基因）检测</view>
+  <view class='div_count'>检测是否具有与乳腺癌/卵巢癌密切相关的基因突变</view>
+  <view class='div_price flex'>
+      <view class='num_day'>10个工作日</view>
+      <view class='num_money'>￥6500.00</view>
+  </view>
+</view>

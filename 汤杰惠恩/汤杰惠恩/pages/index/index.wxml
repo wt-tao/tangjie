@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<image src='../../img/xz15@3x.png' style='width:100%;position: fixed;z-index: 1002' mode='widthFix'/>
+<view class='div'>
+    <view class='list flex'>
+        <image src='../../img/_sj@3x (1).png' style='width:30rpx;margin-top:17rpx;margin-left:20rpx;' mode='widthFix'/>
+        <input class='input' placeholder='请输入手机号' placeholder-class='place'/>
+    </view>
+    <view class='list flex'>
+        <image src='../../img/shenfenzheng@3x.png' style='width:35rpx;margin-top:20rpx;margin-left:20rpx;' mode='widthFix'/>
+        <input class='input' style='margin-left:45rpx;' placeholder='请输入身份证号用以查询检测报告' placeholder-class='place'/>
+    </view>
+    <view class='list flex' style='border:none'>
+      <view class='list1 flex'>
+        <image src='../../img/_sj@3x (2).png' style='width:40rpx;margin-top:20rpx;margin-left:20rpx;' mode='widthFix'/>
+        <input class='input1' style='margin-left:40rpx;' placeholder='请输入验证码' placeholder-class='place'/>
+      </view>
+      <!-- <view class='yzm'>发送验证码</view> -->
+      <view class='yzm' wx:if="{{!isShow}}" bindtap='getCode' >发送验证码</view>
+      <view class='yzm' wx:if="{{isShow}}" >已发送{{sec}}</view>
+    </view>
+
+    <view class='list flex' style='border:none'>
+        <image src='../../img/g@3x.png' style='width:35rpx;margin-top:25rpx;' mode='widthFix'/>
+        <view class='text'>阅读并同意用户协议</view>
+    </view>
+</view>
+
+<view class='lj'>立即注册</view>
+<view class='login' bindtap='login'>前往登录 ></view>

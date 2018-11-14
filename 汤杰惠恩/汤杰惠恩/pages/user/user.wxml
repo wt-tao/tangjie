@@ -1,0 +1,63 @@
+<!--pages/user/user.wxml-->
+<view class='head'>
+    <view class='head_user flex'>
+        <!--头像  -->
+        <view class='head_img'></view>
+        <view class='head_userinfo'>
+            <view class='user_name flex'>
+              <view class='name'>用户昵称昵</view>
+              <view class='user_car'>普通用户</view>
+            </view>
+            <view class='card'>手机号:12345678911</view>
+            <view class='card'>身份证号:123456789123456781</view>
+        </view>
+        <view class='end'>
+            <image src='../../img/tuichu@3x.png' style='width:60rpx;margin-left:40rpx;margin-top:40rpx;' mode='widthFix'/>
+            <view class='tuic'>退出登录</view>
+        </view>
+    </view>
+
+    <view class='new' bindtap='news'>
+        <view class='news flex'>
+            <image src='../../img/xiaoxi@3x.png' style='width:40rpx;margin-top:20rpx;margin-left:20rpx;' mode='widthFix'/>
+            <view class='windNews'>系统消息</view>
+            <view class='num'>0</view>
+        </view>
+    </view>
+</view>
+
+<view style='height:20rpx;width:100%;background-color: #EFEFF4'></view>
+
+<view class='div'>
+    <view class='title flex'>
+        <view class='icon'></view>
+        <view class='titele_text'>我的报告</view>
+    </view>
+    <view class='div_list flex'>
+        <view class='list_com' bindtap='detail' id='1'>
+            <image src='../../img/wenjuankb@3x (1).png' style='width:70rpx;margin-left:80rpx;margin-top:30rpx;' mode='widthFix'/>
+            <view class='list_name' style='margin-top:30rpx;'>心血管疾病风险</view>
+            <view class='list_name'>预测问卷</view>
+            <view class='list_name' style='color:#A7BCFF;font-size:26rpx;margin-top:20rpx;'>查看 ></view>
+        </view>
+        <view class='list_com'>
+            <image src='../../img/wenjuankb@3x (1).png' style='width:70rpx;margin-left:80rpx;margin-top:30rpx;' mode='widthFix'/>
+            <view class='list_name' style='margin-top:30rpx;'>乳腺癌风险</view>
+            <view class='list_name'>预测问卷</view>
+            <view class='list_name' style='color:#A7BCFF;font-size:26rpx;margin-top:20rpx;'>查看 ></view>
+        </view>
+        <view class='list_com'>
+            <image src='../../img/wenjuankb@3x (1).png' style='width:70rpx;margin-left:80rpx;margin-top:30rpx;' mode='widthFix'/>
+            <view class='list_name' style='margin-top:30rpx;'>肿瘤风险</view>
+            <view class='list_name'>预测问卷</view>
+            <view class='list_name' style='color:#A7BCFF;font-size:26rpx;margin-top:20rpx;'>查看 ></view>
+        </view>
+        <view class='list_com'>
+            <image src='../../img/wenjuankb@3x (1).png' style='width:70rpx;margin-left:80rpx;margin-top:30rpx;' mode='widthFix'/>
+            <view class='list_name' style='margin-top:30rpx;'>心血管疾病风险</view>
+            <view class='list_name'>预测问卷</view>
+            <view class='list_name' style='color:#A7BCFF;font-size:26rpx;margin-top:20rpx;'>查看 ></view>
+        </view>
+    </view>
+</view>
+<view style='height:30rpx;width:100%;'></view>

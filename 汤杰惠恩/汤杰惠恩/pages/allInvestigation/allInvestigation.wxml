@@ -1,0 +1,18 @@
+<!--pages/allInvestigation/allInvestigation.wxml-->
+<view style='height:20rpx;width:100%;background-color: #EFEFF4'></view>
+<view class='div'>
+    <view class='title'>乳腺癌风险问卷调查</view>
+    <view class='time'>2018-10-10</view>
+    <view class='time flex'>
+        <view class='time_count'>共30题 </view>
+        <view class='tx'>立即填写</view>
+    </view>
+</view>
+<view class='div'>
+    <view class='title'>乳腺癌风险问卷调查</view>
+    <view class='time'>2018-10-10</view>
+    <view class='time flex'>
+        <view class='time_count'>共30题 </view>
+        <view class='tx'>立即填写</view>
+    </view>
+</view>

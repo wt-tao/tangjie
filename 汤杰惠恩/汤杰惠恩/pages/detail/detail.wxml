@@ -1,0 +1,13 @@
+<!--pages/detail/detail.wxml-->
+<view class='top'>
+    <view class='title'>乳腺癌风险评估报告</view>
+    <view class='end'>高风险</view>
+    <view class='see'>详情请见报告</view>
+</view>
+
+<view style='height:20rpx;width:100%;background-color: #EFEFF4'></view>
+
+<view class='button flex'>
+  <image src='../../img/xiazai@3x.png' style='width:40rpx;margin-top:20rpx;margin-left:250rpx;' mode='widthFix'/>
+  <view style='margin-left:30rpx;'>报告下载</view>
+</view>
